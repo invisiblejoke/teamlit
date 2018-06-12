@@ -1,0 +1,126 @@
+li a{
+  display:block;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  border-right:1px solid #000000;
+}
+
+li a:hover{
+  background-color:#DEB887;
+}
+
+.active{
+  background-color:#DEB887;
+}
+
+#frame{
+  margin:20px;
+  border:5px solid #000000;
+}
+
+#bookNavBar{
+  border-bottom:5px solid #000000;
+}
+
+#bookNavBar ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+
+#bookDetailsFrame{
+  border-bottom:2px solid #000000;
+  padding:20px;
+  height:50em;
+  margin-left:30px;
+  width:100%
+
+}
+
+#bookImageDiv{
+  float:left;height:12em;
+   margin-top:4em;
+   width:20%;
+}
+
+#bookDetails{
+  float:left;height:12em;margin-left:2em;margin-top:3em;
+  width:60%;
+}
+
+.mobile-nav{
+  display:none;
+}
+
+@media screen and (max-width: 450px) {
+
+    .navbar.navbar-inverse.navbar-static-top{
+      display:none;
+    }
+
+    .mobile-nav{
+      display:block;
+    }
+
+    #bookImageDiv{
+      width:100%;
+      clear:both;
+      margin:10px;
+      height:auto;
+      text-align:center;
+    }
+
+    #bookDetails{
+      width:100%;
+      margin:10px;
+    }
+
+    #bookDetails h4{
+      font-size:0.95em;
+    }
+
+    #bookDetailsFrame{
+      width:100%;
+      padding:2px;
+      margin:0;
+    }
+
+    #bookNavBar{
+      width:100%;
+    }
+
+    #bookNavBar ul{
+      display:flex;
+      flex-grow:1;
+    }
+
+    #bookNavBar ul li{
+      font-size:0.7em;
+    }
+
+    .mobile-search-bar input{
+      width:60%;
+      float:left;
+	  margin-left:5%;
+	  margin-right:5%;
+      border-radius:15px;
+    }
+
+    .mobile-search-bar{
+      padding:5%;
+    }
+
+
+    .mobile-search-button{
+      border-radius:15px;
+	  width:25%;
+      background:none;
+      border: 1px solid #FF8300;
+    }
+
+
+
+}

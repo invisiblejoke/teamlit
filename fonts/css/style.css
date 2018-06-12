@@ -1,0 +1,62 @@
+#Mainhead img {
+  float: left;
+  background: #555;
+}
+
+#Mainhead h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Newbook, #TopSearchBook, #RecommendSearch, #RecentSearch {
+	background-color: #e47f3b;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+
+
+#RsBody table td{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#RsBody table {
+  table-layout: fixed;
+  width:100%;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sliderauthor p{
+	font-size:12px;
+	padding-left:5px;
+	min-height:70px;
+}
+
+.sliderauthor img{
+	margin:auto;
+}
+@media screen and (max-width: 450px){
+.star {
+	text-align:center;
+}
+}
